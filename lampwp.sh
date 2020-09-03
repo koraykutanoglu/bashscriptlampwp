@@ -27,7 +27,7 @@ mysql_secure_installation
 echo -e "\033[32mmysql secure installation done\033[0m"
 sleep 2
 
-printf "CREATE DATABASE wordpress CHARACTER SET UTF8 COLLATE utf8_bin;\nCREATE USER 'wordpressuser'@'localhost' IDENTIFIED BY 'Password1';\nGRANT ALL PRIVILEGES ON * . * TO 'wordpressuser'@'localhost';\nFLUSH PRIVILEGES;\nexit\n" | mysql
+printf "CREATE DATABASE wordpress CHARACTER SET UTF8 COLLATE utf8_bin;\nCREATE USER 'wordpressuser'@'localhost' IDENTIFIED BY 'ALTw_!w~Vs}W8A2A';\nGRANT ALL PRIVILEGES ON * . * TO 'wordpressuser'@'localhost';\nFLUSH PRIVILEGES;\nexit\n" | mysql
 echo -e "\033[32mDatabase operations done\033[0m"
 sleep 2
 

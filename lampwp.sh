@@ -27,7 +27,7 @@ mysql_secure_installation
 echo -e "\033[32mmysql secure installation done\033[0m"
 sleep 2
 
-printf "CREATE DATABASE wordpress CHARACTER SET UTF8 COLLATE utf8_bin;\nCREATE USER 'wordpressuser'@'localhost' IDENTIFIED BY 'ALTw_!w~Vs}W8A2A';\nGRANT ALL PRIVILEGES ON * . * TO 'wordpressuser'@'localhost';\nFLUSH PRIVILEGES;\nexit\n" | mysql
+printf "CREATE DATABASE wordpress CHARACTER SET UTF8 COLLATE utf8_bin;\nCREATE USER 'wordpressuser'@'localhost' IDENTIFIED BY 'ALTw_!wdqwelşhg~Vs}W8A2A';\nGRANT ALL PRIVILEGES ON * . * TO 'wordpressuser'@'localhost';\nFLUSH PRIVILEGES;\nexit\n" | mysql
 echo -e "\033[32mDatabase operations done\033[0m"
 sleep 2
 
@@ -70,7 +70,7 @@ define( 'DB_NAME', 'wordpress' );
 define( 'DB_USER', 'wordpressuser' );
 
 /** MySQL veritabanı parolası */
-define( 'DB_PASSWORD', 'Password1' );
+define( 'DB_PASSWORD', 'ALTw_!wdqwelşhg~Vs}W8A2A' );
 
 /** MySQL sunucusu */
 define( 'DB_HOST', 'localhost' );
